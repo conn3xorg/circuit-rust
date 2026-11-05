@@ -8,7 +8,7 @@ A Conn3x circuit that puts one exact Rust toolchain on all your hosts, without a
 
 ```hcl
 module "rust" {
-  source = "github.com/conn3xorg/circuit-rust?ref=v0.1.0"
+  source = "github.com/conn3xorg/circuit-rust?ref=v0.1.1"
 
   hosts                = { app1 = "203.0.113.10", app2 = "203.0.113.11" }
   ssh_private_key_file = "~/.ssh/id_ed25519"
